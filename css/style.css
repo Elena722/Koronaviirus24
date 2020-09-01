@@ -1,0 +1,1610 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'San Francisco', serif;
+}
+.container {
+  /* border: 1px solid red; */
+  max-width: 1400px;
+  margin: auto;
+  background-image: url(../img/Virus\ Icon.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 40%;
+}
+.title-big {
+  font-family: 'San Francisco', serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 0px;
+  margin-top: -12px;
+}
+.title-small {
+  font-family: 'San Francisco', serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 0px;
+}
+.first-title{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.first-logo-small {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.first-header-logo{
+  margin-left: 100px;
+}
+.header-virus {
+  /* width: 350px; */
+  /* height: 300px; */
+}
+.data-renew {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 400px;
+  height: 20px;
+  color: darkgrey;
+  font-size: 16px;
+  /* border:1px solid red; */
+}
+.addmargin {
+  margin-left: -2px;
+}
+
+html {
+  -webkit-locale: 'et';
+}
+
+
+/*--FIRST----*/
+
+.first {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.number-text {
+  text-align: center;
+}
+.one {
+    margin-left: 20px;
+}
+.six {
+    margin-right: 20px;
+}
+.first-data-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.first-one-number {
+  margin-left: 130px;
+}
+.first-two-number {
+  margin-left: 150px;
+}
+.first-three-number {
+  margin-left: 50px;
+}
+.first-four-number {
+  margin-left: 0px;
+}
+.first-five-number {
+  margin-left: 10px;
+}
+.first-six-number {
+  margin-right: 30px;
+}
+.data-one {
+  display: flex;
+  margin-bottom: 0px;
+}
+.first-data-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+.first-data-font {
+  font-family: 'San Francisco', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 0px;
+}
+.first-data-font-text {
+  font-family: 'San Francisco', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 0px;
+}
+.first-one-text {
+  margin-left: 20px;
+}
+.first-six-text {
+  margin-right: 20px;
+}
+.first-info {
+  display: block;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.left {
+  margin-left: -14px;
+}
+.first-info-blue-one, .first-info-blue-two, .first-info-blue-three{
+  color: #3490DE;
+  font-family: 'San Francisco', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 78px;
+  margin-left: 50px;
+}
+.first-info-tel {
+  font-family: 'San Francisco', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 0px;
+  margin-bottom: -80px;
+}
+.first-info-blue-one {
+  margin-left: 77px;
+}
+.first-info-blue-two {
+  margin-left: 50px;
+}
+.first-info-blue-three {
+  margin-left: 165px;
+}
+
+
+/* SECOND*/
+
+
+.second-full {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  background-image:url(../img/fon-yellow.png);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  margin-left: 0px;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
+.second-title{
+  min-width: 380px;
+  align-self: center;
+  margin-left: 80px;
+}
+.title-fix {
+  /* position: fixed; */
+}
+.second-text-full {
+  margin-right: 100px;
+  margin-left: 5%;
+  margin-top: 0px;
+}
+.second-text {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 0px;
+}
+
+
+/* ----THIRD------ */
+
+.third-full {
+  /* display: inline-block; */
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.third-title {
+  text-align: center;
+}
+.third-grafic-fig {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -2%;
+}
+.third-grafic {
+  
+  width: 1170px;
+  height: 500px;
+  margin-bottom: 50px;
+  align-self: center;
+}
+.third-fig-blue {
+  height: 650px;
+  margin-top: -50px;
+}
+.third-ref {
+  display: flex;
+}
+.third-ref-source {
+  margin-left: 104px;
+  margin-bottom: 30px;
+  margin-top: -4%;
+}
+
+/* ----FOURTH------- */
+
+.fourth-full {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.fourth-title{
+  display: flex;
+  justify-content: space-between;
+}
+.fourth-title-height {
+  margin-bottom: 60px;
+}
+.forth-text {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 100px;
+  width: 600px;
+}
+.fourth-fig {
+  margin-right: 100px;
+  margin-top: -40px;
+}
+.man {
+  width: 100%;
+  height: 100%;
+}
+.fourth-text-inyellow-full {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+.fourth-yellow-ciercle {
+  border: 1px solid darkgray;
+  background: #FFFB00;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: none;
+}
+.fourth-text-inyellow {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 19px;
+  margin-top: 77px;
+}
+.last {
+  margin-right: 100px;
+}
+.margin {
+  padding: 20px;
+}
+
+/* ----FIFTH------ */
+
+.fifth-full {
+  background-image:url(../img/fon-yellow.png);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.fifth-title {
+  padding-top: 8%;
+  padding-left: 100px;
+}
+.fifth-text-inblue-full {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.fifth-blue-cicle {
+  border: 1px solid darkgray;
+  background: #4FABF7;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: none;
+}
+.fifth-blue-cicle-fist {
+  margin-left: 100px;
+  border: 1px solid darkgray;
+  background: #4FABF7;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center; 
+  border: none;
+}
+.fifth-blue-cicle-last {
+  margin-right: 100px;
+  border: 1px solid darkgray;
+  background: #4FABF7;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: none; 
+}
+.fifth-text-inblue {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 19px;
+  margin-top: 57px;
+  color: white;
+}
+.fifth-color-red {
+  color: #B52121;
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+}
+.fifth-end-text {
+  display: block;
+  max-width: 700px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+}
+
+.fifth-text {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+}
+.margin {
+  margin-top: 67px;
+}
+
+/* ----SIXTH----------- */
+
+.sixth-full {
+ margin-top: -250px;
+}
+.sixth-title {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 10px; 
+  margin-left: 100px;
+  margin-bottom: -250px;
+}
+.sixth-number-blue {
+  color: #4FABF7;
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 288px;
+  line-height: 50px;
+}
+.sixth-title-big {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 38px;
+  max-width: 400px;
+}
+.doctor {
+  margin-left: 30%;
+  width: 250px;
+  height: 250px;
+}
+.sixth-text-inyellow-full{
+  /* display: block; */
+  /* margin-top: -240px; */
+}
+.sixth-group-first {
+  display: flex;
+  justify-content: space-between;
+}
+.sixth-group-second {
+  display: flex;
+  justify-content: space-between;
+}
+.sixth-yellow-circle {
+  margin-left: 100px;
+  border: 1px solid darkgray;
+  background: #FFFB00;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px; 
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+}
+.sixth-text{
+  max-width: 250px;
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 17px;
+}
+.sixth-block-first{
+  display: block;
+}
+.sixth-block{
+  display: block;
+}
+.black {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+}
+.mr {
+  /* margin-right: 100px; */
+}
+.ml {
+  margin-left: 100px;
+}
+.mll {
+  margin-left: 200px;
+}
+.mrr {
+  margin-right: 200px;
+}
+/* ---SEVENTH---- */
+
+.seventh-full {
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+.seventh-title-blue {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  color: #4FABF7;
+  margin-top: 100px;
+  margin-bottom: -10px;
+}
+.seventh-text {
+  display: flex;
+}
+.seventh-text-first {
+  flex-basis: 50%;
+  margin-right: 30px;
+}
+.seventh-blue {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 17px;
+  color: #4FABF7;
+  margin-top: 20px;
+}
+.seventh-black {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 17px;
+  margin-top: -7px;
+}
+.seventh-text-second {
+  flex-basis: 50%;
+  margin-right: 100px;
+}
+.seventh-yellow {
+  width: 260px;
+  height: 34;
+  background: #FFFB00;
+  box-shadow: 0px 3px 0px #E8E530;
+  border-radius: 4px;
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 17px;
+  padding: 13px 15px;
+  margin:auto;
+  margin-top: 0px;
+}
+.seventh-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* -----EIGTH-------- */
+
+.eigth-full {
+  margin-left: 100px;
+}
+.eigth-fig {
+  margin-left: 270px;
+  margin-top: -50px;
+}
+.eigth-world {
+  width: 300px;
+  height: 300px;
+  margin-top: -20px;
+  margin-left: 180px;
+}
+.eigth-numbers-full {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: -50px; */
+}
+.eigth-numbers {
+  font-family: 'San Francisco', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 0px;
+  margin-right: 100px;
+  margin-left: 50px;
+  /* margin-top: 140px; */
+}
+.entwo {
+  margin-left: 10px;
+}
+.eigth-text-full {
+  display: flex;
+  justify-content: space-between;
+}
+.eigth-text {
+  font-family: 'San Francisco', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 0px;
+  margin-right: 100px;
+  margin-top: -5px;
+}
+.eigth-two {
+  margin-left: -100px;
+}
+.margin-rigth{
+  margin-right: 100px;
+}
+
+/* ----FOOTER---------- */
+.footer-full {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-right: 100px;
+  border-top: 1px solid grey;
+  margin-top: 40px;
+}
+.footer-text-title {
+  font-family: 'San Francisco', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 17px;
+}
+.footer-text-main {
+  font-family: 'San Francisco';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 17px;
+}
+.decor {
+    text-decoration: none;
+    color: black;
+}
+.footer-first {
+  flex-basis: 25%;
+  margin-right: 100px;
+}
+.footer-second {
+  margin-right: 100px;
+}
+.footer-third {
+  margin-right: 10px;
+}
+.footer-four {
+  /* text-align: right; */
+}
+.mt {
+  margin-top: -17px;
+}
+/* ----------END--------- */
+.end {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+}
+.red {
+  color: red;
+}
+
+
+
+
+
+/* в (когда медиа запрос будет работать) */
+@media (max-width: 1200px) {
+  .conteiner {
+    max-width: 960px;
+    /* border: 1px solid blue; */
+  }
+  .fourth-text-inyellow, .forth-text, .fifth-text-inblue{
+    font-size: 20px;
+  }
+  .second-text {
+    font-size: 20px;
+    line-height: 21px;
+  }
+  .third-grafic {
+    width: 78%;
+  }
+  .third-ref-source{
+    margin-top: -4%;
+  }
+  .forth-text {
+    font-size: 20px;
+    width: 500px;
+  }
+  .fourth-yellow-ciercle, .fifth-blue-cicle, .fifth-blue-cicle-fist, .fifth-blue-cicle-last{
+    width: 150px;
+    height: 150px;
+  }
+  .fourth-text-inyellow, .fifth-text-inblue {
+    margin-top: 57px;
+  } 
+  .margin {
+    padding: 10px;
+  }
+  .man {
+    width: 90%;
+    height: 90%;
+  }
+  .fifth-text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .fifth-red-color {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .fifth-title {
+    /* padding-top: 6%; */
+  }
+  .fifth-end-text {
+    margin-top: 8%;
+    margin-left: 15%;
+    /* margin-bottom: 10px; */
+  }
+  .first-one-text {
+    margin-left: 20px;
+  }
+  .sixth-text {
+    font-size: 20px;
+    max-width: 220px;
+  }
+  .doctor {
+    margin-left: 15%;
+  }
+  .ml {
+    margin-left: 100px;
+  }
+  .msecond {
+    margin-left: 20px;
+  }
+  .mthird {
+    margin-left: 20px;
+  }
+  .mr {
+    margin-left: 20px;
+    /* margin-right: -100px; */
+  }
+  .mll {
+    margin-left: 170px;
+  }
+  .mrr {
+    margin-right: 150px;
+  }
+}
+
+
+
+/* 992 */
+
+
+
+@media (max-width: 992px) {
+  .conteiner {
+    max-width: 740px;
+    /* border: 1px solid green; */
+  }
+  .first-header-logo {
+    margin-left: 0px;
+  }
+  .first-data-font {
+    font-size: 30px;
+  }
+  .first-data-font-text {
+    font-size: 20px;
+  }
+  .first-one-number {
+    margin-left: 100px;
+  }
+  .first-two-number {
+    margin-left: 130px;
+  }
+  .first-three-number {
+    margin-left: 50px;
+  }
+  .first-four-number {
+    margin-left: 0px;
+  }
+  .first-five-number {
+    margin-left: 10px;
+  }
+  .first-six-number {
+    margin-right: 30px;
+  }
+  .first-info-blue-one, .first-info-blue-two, .first-info-blue-three {
+    font-size: 30px;
+  }
+  .first-info-tel {
+    font-size: 24px;
+  }
+  .first-info {
+    margin-top: 5%;
+  }
+  .first-info-blue-three {
+    margin-left: 140px;
+  }
+  .second-text {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .title-big {
+    font-size: 50px;
+  }
+  .title-small {
+    font-size: 32px;
+  }
+  .second-title{
+    min-width: 300px;
+    align-self: center;
+    margin-left: 80px;
+  }
+  .second-full {
+    background-size: 18%;
+  }
+  .third-grafic {
+    width: 760px;
+    height: 400px;
+  }
+  .third-fig-blue {
+    height: 500px;
+  }
+  .fourth-yellow-ciercle, .fifth-blue-cicle, .fifth-blue-cicle-fist, .fifth-blue-cicle-last{
+    width: 130px;
+    height: 130px;
+  }
+  .forth-text {
+    font-size: 18px;
+    width: 400px;
+  }
+  .fourth-text-inyellow, .forth-text, .fifth-text-inblue{
+    font-size: 18px;
+    margin-top: 47px;
+  }
+  .fourth-fig {
+    margin-right: 100px;
+  }
+  .man {
+    width: 250px;
+    height: 250px;
+  }
+  .margin{
+    padding: 10px;
+  }
+  .fifth-end-text {
+    margin-left: 20%;
+    margin-top: 6%;
+    max-width: 600px;
+    margin-bottom: 150px;
+  }
+  .fifth-color-red {
+    font-size: 26px;
+  }
+  .doctor {
+    width: 200px;
+    height: 200px;
+    margin-left: 13%;
+  }
+  .sixth-number-blue {
+    font-size: 260px;
+  }
+  .sixth-text {
+    font-size: 16px;
+    max-width: 180px;
+  }
+  .sixth-yellow-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+  }
+  .sixth-title-big {
+    line-height: 38px;
+  }
+  /* text */
+  .ml {
+    margin-left: 100px;
+  }
+  /* circle */
+  .mll {
+    margin-left: 150px;
+    /* margin-right: 100px; */
+  }
+  /* text */
+  .mrr {
+    margin-left: 50px;
+  }
+  .mtwo {
+    margin-left: 50px;
+  } 
+  .mthree {
+    margin-left: 50px;
+  }
+  .seventh-black, .seventh-yellow {
+    font-size: 16px;
+  }
+  .seventh-yellow {
+    margin-top: 50px;
+  }
+  .seventh-blue {
+    font-size: 18px;
+  }
+  .eigth-fig {
+    margin-left: 80px;
+  }
+  .eigth-world {
+    width: 250px;
+    height: 250px;
+  }
+  .footer-text-title, .footer-text-main {
+    font-size: 16px;
+  }
+  .footer-four {
+    /* margin-right: 50px; */
+    margin-left: 80px;
+  } 
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    background-size: 50%;
+  }
+  .first-logo-small {
+    /* size: 50%; */
+    width: 70%;
+    height: 70%;
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+  .title-big {
+    font-size: 28px;
+    line-height: 10px;
+  }
+  .title-small {
+    font-size: 18px;
+  }
+  .first-header-logo {
+    margin-left: 0px;
+  }
+  .first-data-numbers {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .first-data-text{
+    margin-left: 30px;
+  }
+  .first-data-font {
+    font-size: 22px;
+  }
+  .first-data-font-text {
+    font-size: 12px;
+  }
+  .first-one-number {
+    margin-left: 40px;
+  }
+  .first-two-number {
+    margin-left: 90px;
+  }
+  .first-three-number {
+    margin-left: 50px;
+  }
+  .first-four-number {
+    margin-left: 20px;
+  }
+  .first-five-number {
+    margin-left: 30px;
+  }
+  .first-six-number {
+    margin-right: 20px;
+  }
+  .first-one-text {
+    margin-left: -30px;
+  }
+  .first-info {
+    margin-top: 5%;
+  }
+  .first-info-blue-one, .first-info-blue-two, .first-info-blue-three{
+    font-size: 18px;
+  }
+  .first-info-tel {
+    font-size: 14px;
+  }
+  .first-info-blue-one {
+    margin-left: 77px;
+  }
+  .first-info-blue-two {
+    margin-left: 65px;
+  }
+  .first-info-blue-three {
+    margin-left: 118px;
+  }
+  .left {
+    margin-left: -9px;
+  }
+  .second-full {
+    margin-left: -30px;
+  }
+  .second-text-full {
+    margin-left: 2%;
+    margin-right: 10px;
+  }
+  .second-text {
+    font-size: 14px;
+    margin-right: 0px;
+    line-height: 15px;
+  }
+  .second-title {
+    margin-left: 30px;
+    min-width: 200px;
+  }
+  .third-grafic {
+    width: 400px;
+    height: 300px;
+  }
+  .third-fig-blue {
+    height: 400px;
+  }
+  .third-ref-source {
+    margin-top: -4%;
+    margin-left: 20%;
+  }
+  .fourth-full {
+    margin-left: 0px;
+  }
+  .fourth-title-height {
+    margin-bottom: 30px;
+  }
+  .forth-text {
+    font-size: 14px;
+    line-height: 15px;
+    width: 220px;
+  }
+  .man {
+    width: 200px;
+    height: 200px;
+  }
+  .fourth-fig {
+    margin-left: 120px;
+  }
+  .fourth-yellow-ciercle, .fifth-blue-cicle, .fifth-blue-cicle-fist, .fifth-blue-cicle-last {
+    width: 100px;
+    height: 100px;
+  }
+  .fourth-text-inyellow, .fifth-text-inblue {
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 10px;
+  }
+  .last {
+    margin-right: 10px;
+  }
+  .margin {
+    padding: 10px;
+  }
+  .fifth-full {
+    margin-left: -30px;
+    background-size: 29%;
+    margin-top: -50px;
+  }
+  .fifth-title {
+    /* padding-top: 30%; */
+    margin-top: 25px;
+    padding-left: 20px;
+  }
+  .fifth-text-inblue-full {
+    margin-top: 30px;
+  }
+  .fifth-text {
+    max-width: 420px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .fifth-color-red {
+    font-size: 20px;
+    line-height: 16px;
+  }
+  .fifth-blue-cicle-last {
+    margin-right: 10px;
+  }
+  .fifth-blue-cicle-fist {
+    margin-left: 20px;
+  }
+  .fifth-end-text {
+    margin-top: 80px;
+  }
+  .sixth-title {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 120px;
+  }
+  .sixth-number-blue {
+    font-size: 180px;
+  }
+  .sixth-title {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: -150px;
+  }
+  .sixth-title-big {
+    font-size: 36px;
+    line-height: 25px;
+  }
+  .doctor {
+    width: 150px;
+    height: 150px;
+  }
+  .sixth-text-inyellow-full {
+    margin-top: -180px;
+  }
+  .sixth-group-second {
+    margin-top: 20px;
+  }
+  .sixth-yellow-circle {
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    padding: 7px;
+  }
+  .sixth-text {
+    font-size: 12px;
+    line-height: 12px;
+    max-width: 230px;
+  }
+  .black {
+    font-size: 14px;
+  }
+  .ml {
+    margin-left: 0px;
+  }
+  .mtwo {
+    margin-left: 50px;
+  }
+  .mthree {
+    margin-left: 50px;
+  }
+  .mr {
+    margin-left: 30px;
+  }
+  .mll {
+    margin-left: 20px;
+  }
+  .mfour {
+    margin-left: 50px;
+  }
+ 
+  
+
+  .seventh-full {
+    margin-left: 10px;
+    margin-top: -50px;
+  }
+  .seventh-title-blue {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .seventh-text-first {
+    margin-right: 10px;
+  }
+  .seventh-blue {
+    font-size: 14px;
+  }
+  .seventh-black {
+    font-size: 12px;
+  }
+  .seventh-text-second {
+    margin-right: 10px;
+  }
+  .seventh-yellow {
+    margin-top: 65px;
+    font-size: 14px;
+    width: 200px;
+  }
+  .eigth-full {
+    margin-left: 10px;
+  }
+  .eigth-fig {
+    margin-left: 10px;
+  }
+  .eigth-world {
+    width: 170px;
+    height: 170px;
+  }
+  .eigth-numbers {
+    font-size: 22px;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .eigth-text {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .eigth-two {
+    margin-left: 0px;
+  }
+  .entwo {
+  margin-left: 90px;
+  }
+  .footer-full {
+    margin-right: 10px;
+  }
+  .footer-text-title {
+    font-size: 14px;
+  }
+  .footer-text-main {
+    /* flex-basis: 80%; */
+    font-size: 14px;
+  }
+  .footer-first {
+    /* flex-basis: 80%; */
+    margin-right: 10px;
+  }
+  .footer-second {
+    margin-right: 10px;
+  
+  }
+  .footer-third {
+    /* flex-basis: 80%; */
+    margin-right: 10px;
+  }
+  .footer-four {
+   margin-left: 10px;
+   margin-right: 0px;
+  } 
+  .facebook {
+    width: 20px;
+    height: 20px;
+  }
+  .data-renew {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .addmargin {
+    margin-left: -2px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 578px) {
+  .container {
+    /* width: 90%; */
+    /* border: 1px solid red; */
+    background-size: 45%;
+    background-position: top right;
+    /* background-position-x: right; */
+  }
+  .first-logo-small {
+    /* size: 50%; */
+    width: 40%;
+    height: 40%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 5px;
+  }
+  .title-big {
+    font-size: 22px;
+    line-height: 10px;
+    margin-left: 5px;
+  }
+  .title-small {
+    font-size: 12px;
+    line-height: 6px;
+    margin-left: 5px;
+  }
+  .first-data-numbers {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .first-data-text{
+    margin-left: 30px;
+  }
+  .first-data-font {
+    font-size: 12px;
+    margin-bottom: 25px;
+  }
+  .first-data-font-text {
+    font-size: 6px;
+  }
+  .first-one-number {
+    margin-left: 30px;
+  }
+  .first-two-number {
+    margin-left: 30px;
+  }
+  .first-three-number {
+    margin-left: 30px;
+  }
+  .first-four-number {
+    margin-left: 10px;
+  }
+  .first-five-number {
+    margin-left: 10px;
+  }
+  .first-six-number {
+    margin-right: 15px;
+  }
+  .first-one-text {
+    margin-left: -20px;
+  }
+  .first-info {
+    margin-top: 2%;
+  }
+  .first-info-blue-one, .first-info-blue-two, .first-info-blue-three{
+    font-size: 12px;
+  }
+  .first-info-tel {
+    font-size: 8px;
+  }
+  .first-info-blue-one {
+    margin-left: 73px;
+  }
+  .first-info-blue-two {
+    margin-left: 65px;
+  }
+  .first-info-blue-three {
+    margin-left: 96px;
+  }
+  .left {
+    margin-left: -7px;
+  }
+
+
+
+  .second-full {
+    margin-left: -30px;
+    background-size: 20%;
+    margin-top: 80px;
+  }
+  .second-text-full {
+    margin-left: 1px;
+    margin-right: 10px;
+  }
+  .second-text {
+    font-size: 8px;
+    margin-right: 0px;
+    line-height: 12px;
+  }
+  .second-title {
+    margin-left: 30px;
+    min-width: 40%;
+  }
+
+  .third-full {
+    margin-top: -100px;
+  }
+  .third-grafic {
+    width: 80%;
+    height: 200px;
+  }
+  .third-fig-blue {
+    height: 250px;
+  }
+  .third-ref-source {
+    margin-top: -10%;
+    margin-left: 15%;
+    font-size: 8px;
+  }
+
+
+  .fourth-full {
+    margin-left: 0px;
+    margin-top: -50px;
+  }
+  .fourth-title-height {
+    margin-bottom: 20px;
+  }
+  .forth-text {
+    font-size: 10px;
+    line-height: 12px;
+    width: 150px;
+    margin-left: 5px;
+  }
+  .man {
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+  }
+  .fourth-fig {
+    margin-left: 15%;
+  }
+  .fourth-yellow-ciercle, .fifth-blue-cicle, .fifth-blue-cicle-fist, .fifth-blue-cicle-last {
+    width: 60px;
+    height: 60px;
+  }
+  .fourth-text-inyellow, .fifth-text-inblue {
+    font-size: 8px;
+    margin-top: 20px;
+    line-height: 10px;
+  }
+  .fisrt-yellow{
+    margin-left: 10px;
+  }
+  .last {
+    margin-right: 10px;
+  }
+  .margin {
+    padding: 6px;
+  }
+
+
+  .fifth-full {
+    margin-left: -20px;
+    background-size: 25%;
+    margin-top: -100px;
+    margin-bottom: 200px;
+  }
+  .fifth-title {
+    /* padding-top: 30%; */
+    margin-top: 25px;
+    padding-left: 20px;
+  }
+  .fifth-text-inblue-full {
+    margin-top: 10px;
+  }
+  .fifth-text {
+    max-width: 200px;
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .fifth-color-red {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .fifth-blue-cicle-last {
+    margin-right: 10px;
+  }
+  .fifth-blue-cicle-fist {
+    margin-left: 30px;
+  }
+  .fifth-end-text {
+    margin-top: 30px;
+  }
+  .margin {
+    padding: -10px;
+  }
+
+
+  .sixth-title {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+    margin-bottom: -100px;
+  }
+  .sixth-number-blue {
+    font-size: 100px;
+  }
+  .sixth-title {
+    margin-left: 5px;
+    margin-right: 1px;
+  }
+  .sixth-title-big {
+    font-size: 20px;
+    line-height: 16px;
+  }
+  .doctor {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-left: 5%;
+  }
+  .sixth-text-inyellow-full {
+    margin-top: -190px;
+  }
+  .sixth-group-second {
+    margin-top: 20px;
+  }
+  .sixth-yellow-circle {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    padding: 7px;
+  }
+  .sixth-text {
+    font-size: 10px;
+    line-height: 8px;
+    max-width: 100px;
+  }
+  .black {
+    font-size: 10px;
+  }
+  .ml {
+    margin-left: 10px;
+  }
+  .msecond {
+    margin-left: 10px;
+  }
+  .mthird {
+    margin-left: 10px;
+  }
+  .mr {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .mll {
+    margin-left: 30px;
+  }
+  .mtwo {
+    margin-left: 30px;
+  }
+  .mthree {
+    margin-left: 30px;
+  }
+  .mfour {
+    margin-left: 30px;
+  }
+
+  .seventh-full {
+    margin-left: 10px;
+    margin-top: -50px;
+  }
+  .seventh-title-blue {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .seventh-text-first {
+    margin-right: 10px;
+  }
+  .seventh-blue {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .seventh-black {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .seventh-text-second {
+    margin-right: 10px;
+  }
+  .seventh-yellow {
+    margin-top: 10px;
+    font-size: 6px;
+    width: 110px;
+    padding: 2 5;
+    /* height: 30px; */
+  }
+
+  .eigth-full {
+    margin-left: 10px;
+    margin-top: -40px;
+  }
+  .eigth-fig {
+    /* margin-left: 10px; */
+    /* margin-right: 40px; */
+  }
+  .eigth-world {
+    width: 100px;
+    height: 100px;
+  }
+  .eigth-numbers {
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .eigth-text {
+    font-size: 6px;
+    margin-right: 10px;
+  }
+  .eigth-two {
+    margin-left: 0px;
+  }
+  .entwo {
+  margin-left: 20px;
+  }
+  .footer-full {
+    margin-right: 10px;
+  }
+  .footer-text-title {
+    font-size: 6px;
+  }
+  .footer-text-main {
+    /* flex-basis: 80%; */
+    font-size: 6px;
+    /* line-height: 14px; */
+  }
+  .footer-first {
+    /* flex-basis: 80%; */
+    margin-right: 10px;
+  }
+  .footer-second {
+    margin-right: 10px;
+  
+  }
+  .footer-third {
+    /* flex-basis: 80%; */
+    margin-right: 10px;
+  }
+  .footer-four {
+   margin-left: 10px;
+   margin-right: 0px;
+  } 
+  .facebook {
+    width: 20px;
+    height: 20px;
+  }
+  .end {
+    margin-top: -5px;
+  }
+  .data-renew {
+    font-size: 6px;
+    margin-left: 10px;
+  }
+  .addmargin {
+    margin-left: -2px;
+  }
+}
